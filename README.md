@@ -16,8 +16,8 @@ docker run -d --link selenium-hub:hub --name chrome-node1 selenium/node-chrome:3
 docker run -d --link selenium-hub:hub --name chrome-node2 selenium/node-firefox:3.5.2-antimony
 docker run -d --link selenium-hub:hub --name chrome-node3 selenium/node-firefox:3.5.2-antimony
 ```
-
-⋅⋅⋅*NOTE: instead of using the `--link selenium-hub:hub` argument, you can omit it and link everything within a `docker-compose.yml` file.*
+   #### note
+   instead of using the `--link selenium-hub:hub` argument, you can omit it and link everything within a `docker-compose.yml` file.
 
 2. To admire your handywork:
 * type `docker images` to view images on local machine
