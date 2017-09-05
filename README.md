@@ -16,8 +16,11 @@ docker run -d --link selenium-hub:hub --name chrome-node1 selenium/node-chrome:3
 docker run -d --link selenium-hub:hub --name chrome-node2 selenium/node-firefox:3.5.2-antimony
 docker run -d --link selenium-hub:hub --name chrome-node3 selenium/node-firefox:3.5.2-antimony
 ```
-#### note
+#### note 1
 instead of using the `--link selenium-hub:hub` argument, you can omit it and link everything within a `docker-compose.yml` file.
+
+#### note 2
+two Ruby built-in's: [DesiredCapabilities](https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities), which specifies what kind of driver we need; and [RemoteWebDriver](https://github.com/SeleniumHQ/selenium/wiki/RemoteWebDriver), which fetches a matching driver (in this case, a node from our hub)
 
 2. To admire your handywork:
 * type `docker images` to view images on local machine
