@@ -23,6 +23,7 @@ docker run -d --link selenium-hub:hub --name chrome-node3 selenium/node-firefox:
 
 # execute tests
 1. see files.
+2. follow [him](https://github.com/jfroom/docker-compose-rails-selenium-example)
 
 
 # extras
