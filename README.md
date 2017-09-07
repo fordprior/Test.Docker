@@ -17,7 +17,7 @@ docker run -d --link selenium-hub:hub --name chrome-node2 selenium/node-firefox:
 docker run -d --link selenium-hub:hub --name chrome-node3 selenium/node-firefox:3.5.2-antimony
 ```
    #### note
-   instead of using the `--link selenium-hub:hub` argument, you can omit it and link everything within a `docker-compose.yml` file.
+   instead of using the `--link selenium-hub:hub` argument, you can omit it and link everything within a `docker-compose.yml` file then call it with `docker-compose up -d` where you declare each type of node and then `docker-compose scale chromenode=5` to start up 30 chromenodes.
 
 2. To admire your handywork:
 * type `docker images` to view images on local machine
