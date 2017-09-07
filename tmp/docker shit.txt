@@ -1,0 +1,31 @@
+get set up w/ kinematic and quickstart terminal
+open quickstart terminal
+`docker run -d -p 4444:4444 --name chrome-standalone selenium/standalone-chrome:3.5.2-antimony` to run tests on 1 browser
+`docker images` to view images on local machine
+
+docker run -d -p 4444:4444 --name selenium-hub selenium/hub:3.5.2-antimony
+docker run -d --link selenium-hub:hub --name chrome-node1 selenium/node-chrome:3.5.2-antimony
+docker run -d --link selenium-hub:hub --name firefox-node1 selenium/node-firefox:3.5.2-antimony
+
+docker exec
+
+#What does this shit do? What's with the `--rm` command?
+docker run -d --name selenium-hub -p 4444:4444 selenium/hub:3.5.2-antimony
+CH=$(docker run --rm --name=ch \
+    --link selenium-hub:hub \
+    selenium/node-chrome:3.5.2-antimony)
+
+
+# RUN ALL THE TESTS
+
+
+docker run -it ch /bin/bash
+
+#stop all containers
+docker stop $(docker ps -aq)
+
+#clean up
+docker rm `docker ps -aq`
+
+#remove all images
+docker rmi $(docker iamges -q)

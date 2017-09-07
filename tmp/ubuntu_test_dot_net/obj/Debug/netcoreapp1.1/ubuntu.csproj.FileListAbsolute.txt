@@ -1,0 +1,8 @@
+/home/ubuntu/bin/Debug/netcoreapp1.1/ubuntu.deps.json
+/home/ubuntu/bin/Debug/netcoreapp1.1/ubuntu.runtimeconfig.json
+/home/ubuntu/bin/Debug/netcoreapp1.1/ubuntu.runtimeconfig.dev.json
+/home/ubuntu/obj/Debug/netcoreapp1.1/ubuntu.AssemblyInfo.cs
+/home/ubuntu/bin/Debug/netcoreapp1.1/ubuntu.dll
+/home/ubuntu/bin/Debug/netcoreapp1.1/ubuntu.pdb
+/home/ubuntu/obj/Debug/netcoreapp1.1/ubuntu.dll
+/home/ubuntu/obj/Debug/netcoreapp1.1/ubuntu.pdb

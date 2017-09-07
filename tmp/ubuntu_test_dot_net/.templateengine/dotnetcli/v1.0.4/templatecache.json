@@ -1,0 +1,326 @@
+{
+  "TemplateInfo": [
+    {
+      "ConfigMountPointId": "cf0b0abc-7671-4d09-86a5-254a52fa0266",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Test",
+        "MSTest"
+      ],
+      "DefaultName": null,
+      "Description": null,
+      "Identity": "Microsoft.Test.MSTest.CSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Test.MSTest",
+      "Name": "Unit Test Project",
+      "ShortName": "mstest",
+      "Tags": {
+        "language": "C#",
+        "type": "project"
+      },
+      "ConfigPlace": "/content/MSTest-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null
+    },
+    {
+      "ConfigMountPointId": "cf0b0abc-7671-4d09-86a5-254a52fa0266",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Test",
+        "MSTest"
+      ],
+      "DefaultName": null,
+      "Description": null,
+      "Identity": "Microsoft.Test.MSTest.FSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Test.MSTest",
+      "Name": "Unit Test Project",
+      "ShortName": "mstest",
+      "Tags": {
+        "language": "F#",
+        "type": "project"
+      },
+      "ConfigPlace": "/content/MSTest-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null
+    },
+    {
+      "ConfigMountPointId": "cf0b0abc-7671-4d09-86a5-254a52fa0266",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Test",
+        "xUnit"
+      ],
+      "DefaultName": null,
+      "Description": null,
+      "Identity": "Microsoft.Test.xUnit.CSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Test.xUnit",
+      "Name": "xUnit Test Project",
+      "ShortName": "xunit",
+      "Tags": {
+        "language": "C#",
+        "type": "project"
+      },
+      "ConfigPlace": "/content/XUnit-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null
+    },
+    {
+      "ConfigMountPointId": "cf0b0abc-7671-4d09-86a5-254a52fa0266",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Test",
+        "xUnit"
+      ],
+      "DefaultName": null,
+      "Description": null,
+      "Identity": "Microsoft.Test.xUnit.FSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Test.xUnit",
+      "Name": "xUnit Test Project",
+      "ShortName": "xunit",
+      "Tags": {
+        "language": "F#",
+        "type": "project"
+      },
+      "ConfigPlace": "/content/XUnit-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null
+    },
+    {
+      "ConfigMountPointId": "768e4243-f075-4542-80ce-1c9b04f816c2",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "Empty"
+      ],
+      "DefaultName": null,
+      "Description": null,
+      "Identity": "Microsoft.Web.Empty.CSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Web.Empty",
+      "Name": "ASP.NET Core Empty",
+      "ShortName": "web",
+      "Tags": {
+        "language": "C#",
+        "type": "project"
+      },
+      "ConfigPlace": "/content/EmptyWeb-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null
+    },
+    {
+      "ConfigMountPointId": "768e4243-f075-4542-80ce-1c9b04f816c2",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "MVC"
+      ],
+      "DefaultName": null,
+      "Description": null,
+      "Identity": "Microsoft.Web.Mvc.CSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Web.Mvc",
+      "Name": "ASP.NET Core Web App",
+      "ShortName": "mvc",
+      "Tags": {
+        "language": "C#",
+        "type": "project"
+      },
+      "ConfigPlace": "/content/StarterWeb-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null
+    },
+    {
+      "ConfigMountPointId": "768e4243-f075-4542-80ce-1c9b04f816c2",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "MVC"
+      ],
+      "DefaultName": null,
+      "Description": null,
+      "Identity": "Microsoft.Web.Mvc.FSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Web.Mvc",
+      "Name": "ASP.NET Core Web App",
+      "ShortName": "mvc",
+      "Tags": {
+        "language": "F#",
+        "type": "project"
+      },
+      "ConfigPlace": "/content/StarterWeb-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null
+    },
+    {
+      "ConfigMountPointId": "768e4243-f075-4542-80ce-1c9b04f816c2",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "WebAPI"
+      ],
+      "DefaultName": null,
+      "Description": null,
+      "Identity": "Microsoft.Web.WebApi.CSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Web.WebApi",
+      "Name": "ASP.NET Core Web API",
+      "ShortName": "webapi",
+      "Tags": {
+        "language": "C#",
+        "type": "project"
+      },
+      "ConfigPlace": "/content/WebApi-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null
+    },
+    {
+      "ConfigMountPointId": "f11ae6c5-e0c9-495a-a832-baa2645c5d93",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Library"
+      ],
+      "DefaultName": null,
+      "Description": null,
+      "Identity": "Microsoft.Common.Library.CSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Library",
+      "Name": "Class library",
+      "ShortName": "classlib",
+      "Tags": {
+        "language": "C#",
+        "type": "project"
+      },
+      "ConfigPlace": "/content/ClassLibrary-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null
+    },
+    {
+      "ConfigMountPointId": "f11ae6c5-e0c9-495a-a832-baa2645c5d93",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Library"
+      ],
+      "DefaultName": null,
+      "Description": null,
+      "Identity": "Microsoft.Common.Library.FSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Library",
+      "Name": "Class library",
+      "ShortName": "classlib",
+      "Tags": {
+        "language": "F#",
+        "type": "project"
+      },
+      "ConfigPlace": "/content/ClassLibrary-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null
+    },
+    {
+      "ConfigMountPointId": "f11ae6c5-e0c9-495a-a832-baa2645c5d93",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Console"
+      ],
+      "DefaultName": null,
+      "Description": null,
+      "Identity": "Microsoft.Common.Console.CSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Console",
+      "Name": "Console Application",
+      "ShortName": "console",
+      "Tags": {
+        "language": "C#",
+        "type": "project"
+      },
+      "ConfigPlace": "/content/ConsoleApplication-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null
+    },
+    {
+      "ConfigMountPointId": "f11ae6c5-e0c9-495a-a832-baa2645c5d93",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Console"
+      ],
+      "DefaultName": null,
+      "Description": null,
+      "Identity": "Microsoft.Common.Console.FSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Console",
+      "Name": "Console Application",
+      "ShortName": "console",
+      "Tags": {
+        "language": "F#",
+        "type": "project"
+      },
+      "ConfigPlace": "/content/ConsoleApplication-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null
+    },
+    {
+      "ConfigMountPointId": "a5fcfd4b-6b74-4d4c-afd2-f67b33384ab1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Config"
+      ],
+      "DefaultName": null,
+      "Description": null,
+      "Identity": "Microsoft.Standard.QuickStarts.Nuget.Config",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "ItemNugetConfig",
+      "Name": "Nuget Config",
+      "ShortName": "nugetconfig",
+      "Tags": {
+        "type": "item"
+      },
+      "ConfigPlace": "/content/Nuget/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null
+    },
+    {
+      "ConfigMountPointId": "a5fcfd4b-6b74-4d4c-afd2-f67b33384ab1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Solution"
+      ],
+      "DefaultName": null,
+      "Description": null,
+      "Identity": "Microsoft.Standard.QuickStarts.Solution",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "ItemSolution",
+      "Name": "Solution File",
+      "ShortName": "sln",
+      "Tags": {},
+      "ConfigPlace": "/content/Solution/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null
+    },
+    {
+      "ConfigMountPointId": "a5fcfd4b-6b74-4d4c-afd2-f67b33384ab1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Config"
+      ],
+      "DefaultName": null,
+      "Description": null,
+      "Identity": "Microsoft.Standard.QuickStarts.Web.Config",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "ItemWebConfig",
+      "Name": "Web Config",
+      "ShortName": "webconfig",
+      "Tags": {
+        "type": "item"
+      },
+      "ConfigPlace": "/content/WebConfig/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null
+    }
+  ]
+}
